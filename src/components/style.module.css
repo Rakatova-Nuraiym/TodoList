@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+}
+.mainModal {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.3);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.miniModal {
+  width: 300px;
+  height: 100px;
+  background-color: rgb(149, 101, 194);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.todoCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+
+  height: auto;
+}
+
+input {
+  width: 250px;
+  height: 35px;
+  border: 2px solid rgb(49, 147, 234);
+}
+::placeholder {
+  color: rgb(49, 147, 234);
+}
+.addButoon {
+  width: 130px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid rgb(68, 128, 211);
+  border-radius: 5px;
+  color: rgb(39, 120, 187);
+  font-weight: 600;
+  font-size: 17px;
+  margin-left: 10px;
+  /* box-shadow: 0px 0px 20px 3px rgb(133, 133, 229); */
+}
+
+.todoBox {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid blueviolet;
+  width: 700px;
+  height: 100px;
+
+  background-color: rgb(230, 220, 239);
+}
+.delete_button {
+  width: 130px;
+  height: 30px;
+  background-color: rgb(68, 128, 211);
+  border: 1px solid rgb(68, 128, 211);
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.updata {
+  height: 30px;
+  background-color: rgb(68, 128, 211);
+  border: 1px solid rgb(68, 128, 211);
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+.single_delete {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid rgb(197, 85, 85);
+  border-radius: 5px;
+  color: rgb(205, 64, 64);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.edit_button {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(166, 99, 228);
+  border: 1px solid rgb(166, 99, 228);
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.in_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
